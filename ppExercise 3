@@ -1,0 +1,17 @@
+listado = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+vacio = []
+maxnumber = input("ingresar un numero tope : ")
+
+
+for numero in listado :
+    if int(numero) < int(maxnumber) :
+        print(numero)
+
+
+
+for numero in listado :
+    if int(numero) < 5 :
+        print(numero)
+        vacio.append(numero)
+
+print(vacio)
