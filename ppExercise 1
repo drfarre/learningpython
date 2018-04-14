@@ -1,0 +1,11 @@
+anio_actual = 2018
+nombre = input("Ingrese su nombre: ")
+edad = input("Ingrese edad: ")
+iteraciones =  input("cuantas veces debo escribir la respuesta? ")
+
+centenario =  100 - int(edad) + int(anio_actual) -1
+
+while int(iteraciones) > 0 :
+
+    print(nombre," ,vas a cumplir 100 años en ",centenario)
+    iteraciones = int(iteraciones) - 1
