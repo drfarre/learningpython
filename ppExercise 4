@@ -1,0 +1,8 @@
+numero = input("Ingrese el número: ")
+
+compara = range(2, int(numero))
+
+
+for elemento in compara :
+    if not int(numero) % int(elemento) :
+        print(elemento)
