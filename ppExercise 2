@@ -1,0 +1,20 @@
+numero_a = input("Ingrese numero dividendo  ")
+numero_b = input("Ingrese numero divisor  ")
+
+resultado = int(numero_a) % 2
+
+
+
+
+if int(resultado) != 0 :
+    print("El número dividendo es IMPAR")
+else:
+    if (int(numero_a) % 4 ) == 0 :
+        print("El número dividendo es PAR y MULTIPLO de 4")
+    else:
+        print("El número dividendo es PAR pero NO ES múltiplo de 4")
+
+if int(numero_a) % int(numero_b) == 0 :
+    print("El resultado de dividir numero A por numero B es un numero PAR ENTERO")
+else:
+    print("El resultado de dividir el numero A por el numero B es un numero NO ENTERO")
