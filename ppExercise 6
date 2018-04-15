@@ -1,0 +1,21 @@
+mystring = input("Inserte string: ")
+maximo = int(len(mystring) -1 )
+medio = int(int(maximo) / 2)
+contador = 0
+final = 0
+
+
+while contador < medio :
+    if mystring[contador] == mystring[-contador -1]:
+        final = int(final) + 1
+    else:
+        print("caracter no igual")
+    contador = int(contador) + 1
+
+if int(final) == int(medio):
+    print("El string es palíndromo")
+else:
+    print("El string NO ES palíndromo")
+   # print(contador)
+
+
